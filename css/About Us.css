@@ -1,0 +1,120 @@
+@font-face {
+    font-family:Avalon;
+    src: url(../font/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
+  }
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+
+
+
+
+  @font-face {
+    font-family: Avalon1;
+    src: url(../font/Avalon.ttf);
+  } 
+
+  h2{
+	font-family: Avalon1;
+    background:linear-gradient(to left top,#f3ecf1 0%, #c04ff0 75%, #7358ea 100%);
+	font-size: 70px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.a1{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(29, 180, 235);
+	font-size: 25px;
+	}
+.a2{
+	font-family: Avalon1;
+    color: rgb(10, 10, 10);
+	font-size: 15px;
+
+	}
+    .img1{
+        transform:rotate(270deg);
+        height:30px;
+        width:30px;
+        padding:0px 10px ;
+        margin-bottom:-0.3em;
+    }
+.a3{
+	font-family: Avalon1;
+    background:linear-gradient(to left top,#ee3c57 0%, #bbabab 75%, #7358ea 100%);
+	font-size: 15px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	}
+
+.a4{
+    font-family:Styles;
+    color: rgb(235, 180, 29);
+    font-size: 25px;
+    }
+    
+    div1{
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid rgb(21, 22, 21);
+        margin: 2px;
+      }
+
+.new1{
+
+}
+
+.container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	color: white;
+	margin:auto;
+	border-radius:50px;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.btn{
+	font-size: 20px;
+	border: none;
+	text-align:center;
+	transition:0.5s;
+	background-size:200% auto;
+	color:white;
+	box-shadow:0 0 20px #ee;
+	border-radius:10px;
+	width:100%;
+	cursor:pointer;
+	display: inline-block;
+	border-radius:25px
+}
+
+.btn-1{
+	float:center;
+	padding: 10px 20px;
+	background-image:linear-gradient(to right,#f6f9f5 0%, #57bdba 51%, #12ea0a 100%)
+
+}
+.btn-1:hover{
+	background-position:right center;
+}
+  
+ 
+
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <head>
+    <title>Treasure Mart</title>
+    <link rel="stylesheet" href="../css/Contact Us.css">
+    <link rel="stylesheet" href="../css/Header&Footer.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(function(){
+        $("#header").load("../php/Header.php");
+        $("#footer").load("Footer.html");
+    });
+    </script>
+</head>
+
+<div id="header"></div>
+<!--End Header-->
+
+<br>
+<body>
+    <form action="../php/contactus.php" method="POST">
+        <div class="container">
+          <center><h2>Contact Us</h2></center><br>
+          <label for="uname" for="psw"><a class="a1"><b>Name</b></a></label>
+              <input type="text" placeholder="Enter Name" name="name" required>
+
+              <label  for="uname"><a class="a1"><b>Email</b></a></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label  for="uname"><a class="a1"><b>Phone Number</b></a></label>
+              <input type="text" placeholder="Enter Phone Number" name="phone" required>
+
+              <label  for="uname"><a class="a1"><b>Messages</b></a></label><br><textarea id="msg" name="message" rows="6" cols="68" required></textarea><br><br>
+              <button class="btn btn-1" type="Submit" name="submit">Submit</button>
+
+          <label>
+          </label>
+        </div>
+      </form>
+      <br>
+</body> 
+<br>
+  
+
+<div id="footer"></div>
+</html>
+<!--End Footer-->
+
+
+
+
+
+
+
+

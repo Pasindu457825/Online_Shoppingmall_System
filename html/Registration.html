@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <head>
+    <title>Treasure Mart</title>
+    <link rel="stylesheet" href="../css/Registration.css">
+    <link rel="stylesheet" href="../css/Header&Footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(function(){
+        $("#header").load("../php/Header.php");
+        $("#footer").load("Footer.html");
+    });
+    </script>
+</head>
+
+<div id="header"></div>
+
+<br>
+<body>
+        <form action="../php/Registration.php" method="POST">
+            <div class="container">
+              <center><h2>Create New Account</h2></center><br>
+              <label  for="uname"><a class="a1"><b>First Name</b></a></label>
+              <input type="text" placeholder="Enter First Name" name="firstname" required>
+              
+              <label for="uname" for="psw"><a class="a1"><b>Last Name</b></a></label>
+              <input type="text" placeholder="Enter Last Name" name="lastname" required>
+
+              <label  for="uname"><a class="a1"><b>Email</b></a></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label  for="uname"><a class="a1"><b>Phone Number</b></a></label>
+              <input type="text" placeholder="Enter Phone Number" name="phonenumber" required>
+
+              <label  for="uname"><a class="a1"><b> Gender</b></a></label>
+              <input type="text" placeholder="Select Gender : Male / Female / Non" name="gender" required>
+
+              <label  for="uname"><a class="a1"><b>Password</b></a></label>
+              <input type="password" placeholder="Enter Password?" name="pwd1" required>
+
+              <label  for="uname"><a class="a1"><b> Confirm Password</b></a></label>
+              <input type="password" placeholder="Check Password?" name="pwd2" required>
+
+              <label>
+                <center> <input type="checkbox" checked="checked" name="remember"><a class="a2">Remember me</a></center><br>
+                <button type="submit" name='submit' value="Register" class="btn btn-1"><b>Register</b></button><br><br>
+               
+              </label>
+            </div>
+          </form>
+          <br>
+
+
+</body>
+<br>
+<div id="footer"></div>
+</html>
+
+
+

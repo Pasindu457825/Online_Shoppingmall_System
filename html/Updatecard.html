@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <head>
+    <title>Treasure Mart</title>
+    <link rel="stylesheet" href="../css/updatecard.css">
+    <link rel="stylesheet" href="../css/Header&Footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(function(){
+        $("#header").load("../php/Header.php");
+        $("#footer").load("Footer.html");
+    });
+    </script>
+</head>
+
+<div id="header"></div>
+
+<br>
+<body>
+        <form action="../php/login.php" method="POST">
+            <div class="container">
+                <center><h2>Card Details</h2></center><br>
+                    <h1 style="color: rgb(240, 203, 157);">Edit card details</h1>
+                        
+                <div class="payment">
+                    <div class="row">
+                        <img class="img"  src="../image/visa.png" alt="">
+                        <img class="img"  src="../image/mastercard.png" alt="">
+                        <img class="img"  src="../image/amexnew.png" alt="">
+                        <img class="img"  src="../image/Discover.png">
+                    </div>
+                  
+                  <label  for="cnum"><a class="a1"><b>Card number</b></a></label>
+                  <input type="text" placeholder="Enter card number" name="cardnumber" required>
+                  
+                  <label for="cname" for="psw"><a class="a1"><b>Name on card</b></a></label>
+                  <input type="text" placeholder="Enter card name" name="cardname" required>
+    
+                  <label  for="date"><a class="a1"><b>Expiration date</b></a></label><br>
+                  <input type="date" placeholder="Enter date of expiration" name="date" required><br><br>
+    
+                  <label  for="skey"><a class="a1"><b>CVV</b></a></label>
+                  <input type="number" placeholder="Enter cvv number" name="securitykey" required>
+    
+                  <label>
+                    <center> <input type="checkbox" checked="checked" name="save"><a class="a2">Save this card</a></center><br>
+                    <div class="pcard">
+                        <button type="submit" class="card card-1"><b>Edit card</b></button><br><br>
+                        <button type="submit" class="card2 card-2"><b>Detete card</b></button><br><br>
+                    </div>
+                    
+                    
+                   
+                  </label>
+                </div>
+                </div>
+                
+          </form>
+          <br>
+
+
+</body>
+<br>
+<div id="footer"></div>
+</html>
+
+
+

@@ -1,0 +1,105 @@
+
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+
+  /*reg*/
+  @font-face {
+    font-family: font;
+    src: url(../font/Avalon.ttf);
+  }
+  
+  h2{
+      display: inherit;
+      font-family: font;
+      color: white;
+      font-size: 70px;
+  }
+
+  .imagefile{
+    background-image: url(../image/body.jpg);
+    height: 110px;
+    background-size: cover;
+    width: 165px;
+    background-repeat: no-repeat;
+    
+  }
+
+  
+  .a1{
+      font-family: font;
+      color: white;
+      font-size: 20px;
+      }
+  .a2{
+      font-family: font;
+      color: white;
+      font-size: 15px;
+      }
+  .a3{
+      font-family: font;
+      background:linear-gradient(to right bottom,#d46fe9 0%, #72e94b 45%, #deed0a 100%);
+      font-size: 15px;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      display: flex3
+      ;
+      }
+      
+  .container{
+      width:100%;
+      height:100%;
+      position:absolute;
+      padding:90px 70px 50px 70px;
+      background:linear-gradient(to right bottom,#31ceee 0%, #5f3e9c 45%, #f216f2 100%);
+      margin:auto;
+      border-radius:50px;
+      max-width:525px;
+      min-height:670px;
+      position:relative;
+      box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+      background: url(../image/reg.png);
+      background: image height 1000px;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .btn{
+      font-size: 20px;
+      border: none;
+      text-align:center;
+      transition:0.5s;
+      background-size:200% auto;
+      color:white;
+      box-shadow:0 0 20px #ee;
+      border-radius:10px;
+      width:100%;
+      cursor:pointer;
+      display: inline-block;
+      border-radius:25px
+  }
+  
+  .btn-1{
+      float:center;
+      padding: 10px 20px;
+      background-image:linear-gradient(to right bottom,#948a93 0%, #aa76ea 45%, #6d6f6f 100%)
+  
+  }
+  .btn-1:hover{
+      background-position:right center;
+  }
+
+
+  
+ 
+
+  

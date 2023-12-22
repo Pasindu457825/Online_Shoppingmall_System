@@ -1,0 +1,151 @@
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+
+
+
+
+  /*reg*/
+  @font-face {
+    font-family: Avalon1;
+    src: url(../font/Avalon.ttf);
+  }
+  
+  h2{
+      display: inherit;
+      font-family: Avalon1;
+      color: white;
+      font-size: 50px;
+  }
+  
+  .a1{
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(242, 228, 228);
+      font-size: 20px;
+      }
+  .a2{
+      font-family: Avalon1;
+      color: white;
+      font-size: 15px;
+      }
+  .a3{
+      font-family: Avalon1;
+      background:linear-gradient(to right bottom,#d46fe9 0%, #72e94b 45%, #deed0a 100%);
+      font-size: 15px;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      }
+
+    .box1{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #f9f7f7;
+        box-sizing: border-box;
+        background-color: #e1e3e6;
+        border-radius: 10px;
+    }
+      
+  .container{
+      width:100%;
+      height:100%;
+      position:absolute;
+      padding:10px 70px 50px 70px;
+      background:linear-gradient(to right bottom,#4fb8e8 0%, #0c0c0c 45%, #e418e4 100%);
+      margin:auto;
+      border-radius:50px;
+      max-width:450px;
+      min-height:670px;
+      position:relative;
+      box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f9f7f7;
+    box-sizing: border-box;
+    background-color: #e1e3e6;
+    border-radius: 10px;
+  }
+
+  .num{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f9f7f7;
+    box-sizing: border-box;
+    background-color: #e1e3e6;
+    border-radius: 10px;
+  }
+
+
+  .btn{
+	font-size: 20px;
+	border: none;
+	text-align:center;
+	transition:0.5s;
+	background-size:200% auto;
+	color:white;
+	box-shadow:0 0 20px #ee;
+	border-radius:25px;
+	width:100%;
+	cursor:pointer;
+	display: inline-block;
+   
+    
+}
+ 
+  
+  .btn-1{
+      float:center;
+      padding: 10px 25px;
+      color: #0a0a0a;
+      font-weight: 100;
+      background-image:linear-gradient(to right bottom,#bee5ee 0%, #13d6dd 45%, #a00bea 100%);
+  
+  }
+  .btn-1:hover{
+      background-position: center;
+  }
+
+
+.delete-btn{
+    border: none;
+      font-size: 20px;
+      text-align:center;
+      text-decoration: none;
+      transition:0.5s;
+      background-size:200% auto;
+      color:rgb(17, 17, 17);
+      box-shadow:0 0 20px #ee;
+      width: 89%;
+      cursor:pointer;
+      display: inline-block;
+      border-radius:25px;
+      
+} 
+
+.btn-2{
+      float:center;
+      padding: 10px 25px;
+      background-image:linear-gradient(to right bottom,#d243f6 0%, #f1e7ec 45%, #03a5b4fc 100%);
+      font-style: inherit;
+  
+
+}
+.btn-2:hover{
+    background-position: center;
+}
+
+
+
+  
+
+  

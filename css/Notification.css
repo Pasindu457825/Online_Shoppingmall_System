@@ -1,0 +1,130 @@
+@font-face {
+    font-family:Avalon;
+    src: url(../font/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
+  }
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+  .container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 90px 50px 70px;
+	background:linear-gradient(to left top,#a5a6a5 0%, #0da4a4 75%, #a8a9a7 100%);
+	margin:auto;
+	border-radius:50px;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+h2{
+    font-size: 50px;
+    color: #e7ede8;
+}
+
+.btn-header1{
+    text-align:center;
+      text-decoration: none;
+      transition:0.5s;
+      background-size:200% auto;
+      color:white;
+      box-shadow:0 0 20px #ee;
+      border-radius:25px;
+      width: 75px;
+      cursor:pointer;
+      display: inline-block;
+      margin:10px;
+      font-size:15px;
+      font-weight:larger;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.btn-header-3{
+        float:right;
+      padding: 15px 30px;
+      background-image:linear-gradient(to right,#77e0e8 0%, #dd6375 51%, #0daeee 100%)
+}
+
+.btn-header-3:hover{
+    background-position:right center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 50px;
+
+   
+}
+
+img{
+    width: 35px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.box{
+    margin: 10px;
+}
+
+.dlt{
+    margin-left: 400px;
+    
+    
+}
+
+p{
+    margin: 10px 10px 10px 30px;
+}
+
+button{
+    position: relative;
+    width: 70px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: bold;
+    border: 2px solid rgb(239, 37, 10);
+    border-radius: 10px;
+    background: transparent;
+    color: rgb(22, 16, 16);
+    cursor: pointer;
+    overflow: hidden;
+    text-transform:uppercase ;
+    background-color: red;
+}
+
+  span{
+    background: #0823ec;
+    height: 90%;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.9s;
+    z-index: 1;
+  }
+
+  button:hover{
+    width: 90%;
+  }
+.box{
+    width:100%;
+	height:100%;
+	position:absolute;
+	padding:10px 10px 10px 30px;
+	background:linear-gradient(to left top,#e7ede8 0%, #35b6b3 75%, #1eec08 100%);
+	margin:auto;
+	border-radius:50px;
+	max-width:auto;
+	min-height:auto;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+   
+}

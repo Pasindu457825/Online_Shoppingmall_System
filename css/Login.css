@@ -1,0 +1,92 @@
+
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+}
+  @font-face {
+    font-family: Avalon1;
+    src: url(../font/Avalon.ttf);
+  } 
+
+  h2{
+	display: inherit;
+	font-family: 'Times New Roman', Times, serif;
+    color: white;
+	font-size: 70px;
+}
+
+.a1{
+	font-family: Avalon1;
+    color: white;
+	font-size: 20px;
+	}
+.a2{
+	font-family: Avalon1;
+    color: white;
+	font-size: 15px;
+	}
+.a3{
+	font-family: Avalon1;
+    background:linear-gradient(to left top,#525050 0%, #585757 75%, #171717 100%);
+	font-size: 15px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	}
+	
+.container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:linear-gradient(to left top,#e7ede8 0%, #35b6b3 75%, #1eec08 100%);
+	margin:auto;
+	border-radius:50px;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	background: url(../image/login.png);
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.btn{
+	font-size: 20px;
+	border: none;
+	text-align:center;
+	transition:0.5s;
+	background-size:200% auto;
+	color:white;
+	box-shadow:0 0 20px #ee;
+	border-radius:10px;
+	width:100%;
+	cursor:pointer;
+	display: inline-block;
+	border-radius:25px
+}
+
+.btn-1{
+	float:center;
+	padding: 10px 20px;
+	background-image:linear-gradient(to right,#f6f9f5 0%, #57bdba 51%, #12ea0a 100%)
+
+}
+.btn-1:hover{
+	background-position:right center;
+}
+
+head1{
+	color: red;
+	font-size: 70px;
+}
+
+
+  

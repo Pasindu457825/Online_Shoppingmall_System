@@ -1,0 +1,130 @@
+@font-face {
+    font-family:Avalon;
+    src: url(../font/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
+  }
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+
+
+
+
+  
+  .container{
+    width:100%;
+    height:100%;
+    position:absolute;
+    padding:90px 70px 50px 70px;
+    background:linear-gradient(to right bottom,#12ccda 0%, #9d9d9e 45%, #d339d3 100%);
+    margin:auto;
+    border-radius:50px;
+    max-width:525px;
+    min-height:670px;
+    position:relative;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+img{
+    width: 145px;
+    height: 145px;
+
+
+}
+
+.column{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    margin: 0 0 0 180px;
+    margin-top: -125px;
+}
+
+.name{
+    font-size: large;
+    font-weight: bolder;
+    margin: 7px;
+}
+
+.quntity{
+    width: 50px;
+    color: #131313;
+    background-color: #e7e7ea;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+
+
+
+.btn1{
+    text-align: center;
+    width: 120px;
+    background-image: none;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+    height: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    background-size: 200%;
+    font-weight: bold;
+    border: none;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.btn2{
+    background-image:linear-gradient(to right,#0182fa 0%, #9601fa 51%, #1af13e 100%)
+    
+
+}
+
+.btn3{
+    background-image:linear-gradient(to right,#fa9201 0%, #edd310 51%, #b112ea 100%);
+
+}
+
+.btn2:hover{
+    background-position:right center;
+}
+
+
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.star{
+    margin: 40px;
+    font-size: 20px;
+    color: yellow;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.p1{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.a{
+    font-size: 20px;
+    font-weight: 850;
+    color: #631ee2;
+   
+}
+

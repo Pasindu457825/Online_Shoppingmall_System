@@ -1,0 +1,148 @@
+@font-face {
+    font-family:Avalon;
+    src: url(../font/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
+  }
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+
+
+
+
+
+  .container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:40px 50px 50px 50px;
+	background:linear-gradient(to left top,#e7ede8 0%, #35b6b3 75%, #1eec08 100%);
+	margin:auto;
+	border-radius:50px;
+	max-width:850px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+center{
+    font-size: 50px;
+    color: #e7ede8;
+    font-weight: bolder;
+}
+
+img{
+    width: 100px;
+    height: 110px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    margin:-90px 0 0 170px ;
+}
+
+.img1{
+    height:35px;
+    width: 35px;
+}
+.store{
+    padding: 10px 10px 10px 10px;
+}
+
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+    box-shadow: #3d024b;
+    transform: uppercase;
+    background-size: 200%;
+    float: right;
+}
+
+
+.container1{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:10px 10px 10px 20px;
+	background:linear-gradient(to left top,#e7ede8 0%, #35b6b3 75%, #1eec08 100%);
+	margin:auto;
+	border-radius:50px;
+	max-width:100%;
+	min-height:230px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+h3{
+    font-size: medium;
+}
+
+.bar{
+    
+    background:#7be7e9;
+    background-blend-mode:multiply;
+    padding:0px 10px;
+    height: 60px;;
+    width:auto;
+    text-align: center;
+    opacity :1;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px 5px 10px;
+   
+}
+
+.a12{
+    margin-left: 250px;
+}
+
+.a123{
+    margin-left: 80px;
+}
+
+.a124{
+    margin-left: 80px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+}
+
+.cart-image {
+	width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.center {
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.tablecart {
+    font-size: large;
+}
+
+.total {
+    float: right;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-top: 20px;
+}

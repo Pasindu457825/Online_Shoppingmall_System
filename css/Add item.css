@@ -1,0 +1,84 @@
+@font-face {
+    font-family:Avalon;
+    src: url(../font/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
+  }
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+
+
+
+
+  img{
+    width: 100%;
+  }
+
+
+  .container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 90px 50px 70px;
+	background:linear-gradient(to left top,#a5a6a5 0%, #0da4a4 75%, #a8a9a7 100%);
+	margin:auto;
+	border-radius:50px;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.a1{
+    font-family: style;
+    color: white;
+    font-size: 24px;
+    }
+
+    .add{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 8px 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+
+.h1{
+    font-size: 57px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 900;
+}
+
+.btn{
+	font-size: 20px;
+	border: none;
+	text-align:center;
+	transition:0.5s;
+	background-size:200% auto;
+	color:white;
+	box-shadow:0 0 20px #ee;
+	width:50%;
+	cursor:pointer;
+	display: inline-block;
+	border-radius:25px;
+    margin-left:140px
+}
+ 
+  
+  .btn-1{
+      float:center;
+      padding: 10px 20px;
+      background-image:linear-gradient(to right bottom,#eadae9 0%, #59d6dd 45%, #5aef5d 100%)
+  
+  }
+  .btn-1:hover{
+      background-position: center;
+  }

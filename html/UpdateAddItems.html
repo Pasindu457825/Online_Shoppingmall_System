@@ -1,0 +1,72 @@
+<?php
+include_once 'Config.php';
+$currentScriptPath = $_SERVER['SCRIPT_NAME'];
+$subdirectory = rtrim(dirname(dirname($currentScriptPath)), '/\\');
+$fileName = isset($_FILES["file"]["name"]) ? basename($_FILES["file"]["name"]) : "";
+$targetDir = $_SERVER['DOCUMENT_ROOT'] . $subdirectory . "/uploads/";
+$targetFilePath = $targetDir . $fileName;
+
+if (isset($_POST['add'])) {
+  if(!empty($fileName) && move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
+    $name = mysqli_real_escape_string($con, $_POST['name']);
+    $sql = mysqli_query($con, "INSERT INTO shop (name , price , rating , image) VALUES ('" . $_POST['name'] . "','" . $_POST['price'] . "','" . $_POST['rating'] . "','".$fileName."')");
+    if ($sql) {
+      echo "<script>alert('Item Successfully Added..')</script>";
+      echo "<script>setTimeout(\"location.href = '../php/Shop.php';\",700);</script>";
+        exit();
+    } else {
+        echo "error";
+        exit();
+    }
+  }
+}
+
+?>
+
+<!DOCTYPE html>
+<html>
+<header>
+    <head>
+    <title>Treasure Mart</title>
+    <link rel="stylesheet" href="../css/UpdateAddItems.css">
+    <link rel="stylesheet" href="../css/Header&Footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("../php/Header.php");
+        $("#footer").load("../html/Footer.html");
+      });
+    </script>
+</head>
+
+<div id="header"></div>
+
+<br>
+<div class="container">
+    <center class="h1">Edit Item</center><br><br><br><br><br><br>
+    <div class="add">
+      <form method="POST" enctype="multipart/form-data">
+            <label for="iname" ><a class="a1"><b>Item Name</b></a></label>
+            <input type="text" placeholder="Enter Item Name" name="name" required><br>
+
+            <label for="iprice"><a class="a1"><b>Item Price</b></a></label>
+            <input type="text" placeholder="Enter Item Price" name="price" required><br>
+
+            <label for="irate" ><a class="a1"><b>Item Ratings</b></a></label>
+            <input type="number" placeholder="Enter Item Ratings" name="rating" min="1" max="5" required><br><br>
+
+            <label for="iimage"><a class="a1"><b>Item Picture</b></a></label>
+            <input type="file" id="file" name="file" accept="image/jpg, image/png, image/jpeg"><br><br><br><br>
+            
+            <div class="pcard">
+                <button type="submit" class="card card-1"><b>Submit</b></button><br><br>
+                <button type="submit" class="card2 card-2"><b>Detete Item</b></button><br><br>
+            </div>
+      </form>
+    </div>
+</div>
+<br>
+
+<div id="footer"></div>
+</html>
+<!--End Footer-->

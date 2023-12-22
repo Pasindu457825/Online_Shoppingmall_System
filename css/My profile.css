@@ -1,0 +1,262 @@
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+
+  @font-face {
+    font-family:orders;
+    src: url(../font/Arvo-Bold.ttf);
+  }
+
+
+
+
+  
+  .profile-pic-div{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 90px;
+    width: 53%;
+    position:sticky;
+    
+    bottom: 5px;
+    left: 150px;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+body{
+    background-color:#c0c8cb;
+  }
+
+  .maincontainer{
+    width:100%;
+    height:100%;
+    position:absolute;
+    padding:10px 60px 50px 60px;
+    background:linear-gradient(to right bottom,#f2efef 0%, hwb(198 53% 5%) 45%, #f5f1f1 100%);
+    margin:auto;
+    border-radius:50px;
+    max-width:800px;
+    min-height:670px;
+    position:relative;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.pay{
+    float: left;
+    width: 15%;
+    padding: 38px;
+}
+
+.raw::after{
+    content: "";
+    display: table;
+    clear: both;
+    width: auto;
+}
+
+.myorder{
+    border: 3px solid;
+    font-size: large;
+    font-family: orders;
+    font-weight: bold;
+    
+}
+
+.ulabel{
+    font-size: larger;
+}
+
+
+.h-400 {
+    height: 570px;
+}
+
+.profile_container {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: 160px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.ulabel {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn1{
+      text-align:center;
+      text-decoration: none;
+      transition:0.5s;
+      background-size:200% auto;
+      color:white;
+      box-shadow:0 0 20px #a5a5a5;
+      border-radius:10px;
+      width: 75px;
+      cursor:pointer;
+      display: inline-block;
+      border-radius:25px;
+      margin: -10px;
+      margin: top 10px;
+      
+}
+
+.btn1-click{
+    float:right;
+      padding: 10px 20px;
+      background-image:linear-gradient(to right,#05e9d6 0%, #416c6f 51%, #0deec8 100%)
+}
+
+.btn1:hover{
+    background-position:right center;
+}
+
+.backgroundbtn{
+    width: 90px;
+    height: 110px;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: #daebbc;
+    margin: 13px;
+    padding-top: 10px;
+    
+}
+
+.backgroundbtn1{
+    width: 90px;
+    height: 110px;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: #8adce6;
+    margin: 13px;
+    padding-top: 10px;
+    
+}
+
+.backgroundbtn2{
+    width: 90px;
+    height: 110px;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: #ebc6bb;
+    margin: 13px;
+    padding-top: 10px;
+    
+}
+
+.updatebtn{
+    text-align:center;
+      text-decoration: none;
+      transition:0.5s;
+      background-size:200% auto;
+      color:white;
+      box-shadow:0 0 20px #8e8d8d;
+      border-radius:10px;
+      width: 400px;
+      cursor:pointer;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius:25px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      
+}
+.uptbtn{
+    padding: 10px 15px;
+    height: 60px;
+    background-image:linear-gradient(to right,#05fa01 0%, #10e430 51%, #d7ee0d 100%)
+
+}
+.updatebtn{
+    text-align:center;
+      text-decoration: none;
+      transition:0.5s;
+      background-size:200% auto;
+      color:white;
+      box-shadow:0 0 20px #797979;
+      border-radius:10px;
+      width: 400px;
+      cursor:pointer;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius:25px;
+
+}
+
+.dltbtn1{
+    padding: 10px 15px;
+    font-size: large;
+    height: 40px;
+    background-image:linear-gradient(to right,#fa0101 0%, #fa2408 51%, #66c4ec 100%)
+}
+
+.dltbtn{
+    padding: 10px 15px;
+    height: 40px;
+    background-image:linear-gradient(to right,#65fa01 0%, #733a97 51%, #ee0de3 100%)
+}
+
+.updatebtn:hover{
+    background-position:right center;
+}
+
+
+.order1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-header11{
+    background-color: #e6e1e1;
+      list-style-type:none;
+      margin-top: 90px;
+      margin-left: 80px;
+      margin-right: 80px;
+      padding: 5px 10px 10px 20px;
+      overflow: hidden;
+      text-align:justify;
+      border-radius:50px;
+      opacity:1;
+}
+
+.A12{
+    font: size 20px;
+    font-style:oblique;
+    color: white;
+    
+}
+
+h2{
+    color: white;
+}
+
